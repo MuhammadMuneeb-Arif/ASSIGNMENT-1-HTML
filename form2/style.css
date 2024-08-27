@@ -1,0 +1,67 @@
+body{
+    align-items: center;
+    padding-left: 25%;
+    padding-top: 15%;
+}
+h1{
+    background-color: #3b8df2;
+    color: black;
+    border: 3px solid black;
+    padding:5px 0px;
+}
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background:(to bottom, #0077be, #3b8df2);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    
+  }
+  
+  .input {
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#3b8df2;
+  
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  
+  .input::placeholder {
+    color:black;
+    
+  }
+  
+  .input:hover{
+    border-color: #3b8df2;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+   color: black;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b8df2;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  transition: 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  
+  button:hover {
+    background-color: #0077be;
+    font-size: 17px;
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  
