@@ -1,0 +1,247 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+/* Hero Section Styles */
+.hero {
+    height: 100vh;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Services Section */
+.services .service-item {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.services h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.services p {
+    font-size: 16px;
+}
+
+/* Testimonials Section */
+.testimonials .testimonial-item {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.testimonials p {
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.testimonials h4 {
+    font-size: 16px;
+    color: #007bff;
+}
+
+/* Pricing Section */
+.pricing .pricing-table {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pricing .pricing-item {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.pricing .pricing-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pricing .price {
+    font-size: 32px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.pricing ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.pricing ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Contact Section */
+.contact .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin-left: 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #007bff;
+}
