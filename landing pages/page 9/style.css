@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #008080;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+}
+nav {
+    background-color: #006666;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin: 0 1rem;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.intro {
+    background-image: url('https://via.placeholder.com/1200x600.png?text=Travel+Agency+Hero+Image');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+.intro h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.intro p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.intro a {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.intro a:hover {
+    background-color: #e63900;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.destination-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.destination-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(33.333% - 2rem);
+    text-align: center;
+}
+.destination-item img {
+    width: 100%;
+    height: auto;
+}
+.destination-item h2 {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.destination-item p {
+    padding: 0 1rem 1rem;
+    font-size: 1rem;
+    color: #555;
+}
+footer {
+    background-color: #006666;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
