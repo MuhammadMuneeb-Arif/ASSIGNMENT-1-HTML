@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e1bee7;
+    color: #333;
+}
+
+.mark-sheet-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f3e5f5;
+    padding: 20px;
+    border: 5px solid #8e24aa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #8e24aa;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #ab47bc;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #e1bee7;
+}
+
+.total-row th, .total-row td {
+    font-weight: bold;
+    background-color: #ce93d8;
+}
+
+.grade {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
