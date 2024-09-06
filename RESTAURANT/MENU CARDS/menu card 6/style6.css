@@ -1,0 +1,75 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Light gray background */
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Align to the top */
+            height: 100vh;
+            margin: 0;
+            padding: 20px; /* Add padding around the card */
+        }
+
+        .menu-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 1000px; /* Expanded width for more content */
+            text-align: center;
+            overflow: auto; /* Allow scrolling within the card if necessary */
+            height: 100vh; /* Full viewport height */
+        }
+
+        .menu-card h1 {
+            font-size: 30px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .menu-card h2 {
+            font-size: 22px;
+            color: #555;
+            margin: 15px 0;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .menu-card h3 {
+            font-size: 18px;
+            color: #666;
+            margin: 10px 0;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .menu-card ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu-card ul li {
+            font-size: 16px;
+            padding: 8px 0;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #eee;
+        }
+
+        .menu-card ul li:last-child {
+            border-bottom: none;
+        }
+
+        .menu-card footer {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #777;
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+        }
+
+        @media (max-width: 1200px) {
+            .menu-card {
+                max-width: 90%;
+            }
+        }
