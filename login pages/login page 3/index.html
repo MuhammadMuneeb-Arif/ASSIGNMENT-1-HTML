@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extended Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login to Your Account</h2>
+        <form action="login_action.html" method="POST">
+            <div class="form-section">
+                <label for="name">Full Name</label>
+                <input type="text" class="input-field" id="name" name="name" placeholder="Enter your full name (optional)">
+            </div>
+            <div class="form-section">
+                <label for="father-name">Father's Name</label>
+                <input type="text" class="input-field" id="father-name" name="father-name" placeholder="Enter your father's name (optional)">
+            </div>
+            <div class="form-section">
+                <label for="address">Address</label>
+                <textarea id="address" name="address" placeholder="Enter your address (optional)" rows="3"></textarea>
+            </div>
+            <div class="form-section">
+                <label for="city">City</label>
+                <input type="text" class="input-field" id="city" name="city" placeholder="Enter your city (optional)">
+            </div>
+            <div class="form-section">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="">Select your country (optional)</option>
+                    <option value="pakistan">Pakistan</option>
+                    <option value="usa">United States</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="india">India</option>
+                    <option value="canada">Canada</option>
+                </select>
+            </div>
+            <div class="form-section">
+                <label for="email">Email</label>
+                <input type="email" class="input-field" id="email" name="email" placeholder="Enter your email (optional)">
+            </div>
+            <div class="form-section">
+                <label for="phone">Phone Number</label>
+                <input type="tel" class="input-field" id="phone" name="phone" placeholder="Enter your phone number (optional)">
+            </div>
+            <div class="form-section">
+                <label for="username">Username</label>
+                <input type="text" class="input-field" id="username" name="username" placeholder="Create a username" required>
+            </div>
+            <div class="form-section">
+                <label for="password">Password</label>
+                <input type="password" class="input-field" id="password" name="password" placeholder="Create a password" required>
+            </div>
+
+            <button type="submit" class="login-btn">Submit</button>
+        </form>
+
+        <a href="#" class="forgot-link">Forgot your password?</a>
+
+        <div class="register-link">
+            <p>Don't have an account? <a href="#">Register here</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
