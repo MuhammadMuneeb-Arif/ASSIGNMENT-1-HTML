@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Registration Page</title>
+    <link rel="stylesheet" href="style.css">>
+</head>
+<body>
+
+    <div class="registration-container">
+        <h2>Create Your Account</h2>
+        <form id="registrationForm" action="registration_action.html" method="POST">
+            <!-- Personal Information -->
+            <div class="form-group">
+                <label for="fullName">Full Name<span style="color: red;">*</span></label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="fatherName">Father's Name<span style="color: red;">*</span></label>
+                <input type="text" id="fatherName" name="fatherName" placeholder="Enter your father's name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth<span style="color: red;">*</span></label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="form-group">
+                <label>Gender<span style="color: red;">*</span></label>
+                <div class="gender-group">
+                    <label><input type="radio" name="gender" value="Male" required> Male</label>
+                    <label><input type="radio" name="gender" value="Female" required> Female</label>
+                    <label><input type="radio" name="gender" value="Other" required> Other</label>
+                </div>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="form-group">
+                <label for="email">Email Address<span style="color: red;">*</span></label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number<span style="color: red;">*</span></label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
+                <small>Format: 1234567890</small>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address<span style="color: red;">*</span></label>
+                <textarea id="address" name="address" rows="3" placeholder="Enter your address" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="city">City<span style="color: red;">*</span></label>
+                <input type="text" id="city" name="city" placeholder="Enter your city" required>
+            </div>
+
+            <div class="form-group">
+                <label for="state">State/Province<span style="color: red;">*</span></label>
+                <input type="text" id="state" name="state" placeholder="Enter your state or province" required>
+            </div>
+
+            <div class="form-group">
+                <label for="country">Country<span style="color: red;">*</span></label>
+                <select id="country" name="country" required>
+                    <option value="">Select your country</option>
+                    <option value="USA">United States</option>
+                    <option value="Canada">Canada</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="Australia">Australia</option>
+                    <!-- Add more countries as needed -->
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="zip">Zip/Postal Code<span style="color: red;">*</span></label>
+                <input type="text" id="zip" name="zip" placeholder="Enter your zip or postal code" required>
+            </div>
+
+            <!-- Account Details -->
+            <div class="form-group">
+                <label for="username">Username<span style="color: red;">*</span></label>
+                <input type="text" id="username" name="username" placeholder="Choose a username" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password<span style="color: red;">*</span></label>
+                <input type="password" id="password" name="password" placeholder="Create a password" minlength="6" required>
+                <small>Password must be at least 6 characters.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password<span style="color: red;">*</span></label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Re-enter your password" minlength="6" required>
+            </div>
+
+            <!-- Security Questions -->
+            <div class="form-group">
+                <label for="securityQuestion">Security Question<span style="color: red;">*</span></label>
+                <select id="securityQuestion" name="securityQuestion" required>
+                    <option value="">Select a security question</option>
+                    <option value="motherMaiden">What is your mother's maiden name?</option>
+                    <option value="firstPet">What was the name of your first pet?</option>
+                    <option value="firstSchool">What was the name of your first school?</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="securityAnswer">Security Answer<span style="color: red;">*</span></label>
+                <input type="text" id="securityAnswer" name="securityAnswer" placeholder="Enter your answer" required>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Register</button>
+        </form>
+
+        <div class="login-link">
+            <p>Already have an account? <a href="login.html">Login here</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
