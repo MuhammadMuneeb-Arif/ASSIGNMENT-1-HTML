@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Registration - Pastel Theme</title>
+   <link rel="stylesheet" href="style.css">       
+    
+</head>
+<body>
+    <div class="form-container">
+        <h2>School Registration</h2>
+        <form action="/submit-registration" method="post">
+            <label for="student-name">Student Name</label>
+            <input type="text" id="student-name" name="student-name" required>
+            
+            <label for="father-name">Father's Name</label>
+            <input type="text" id="father-name" name="father-name" required>
+            
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+            
+            <label for="current-class">Current Class</label>
+            <input type="text" id="current-class" name="current-class" required>
+            
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="1" max="100" required>
+            
+            <label for="address">Residential Address</label>
+            <textarea id="address" name="address" required></textarea>
+            
+            <label for="previous-class">Previous Class</label>
+            <input type="text" id="previous-class" name="previous-class">
+            
+            <label for="previous-school">Previous School</label>
+            <input type="text" id="previous-school" name="previous-school">
+            
+            <label for="admission-class">Admission Class</label>
+            <input type="text" id="admission-class" name="admission-class" required>
+            
+            <label for="admission-date">Date of Admission</label>
+            <input type="date" id="admission-date" name="admission-date" required>
+            
+            <label for="religion">Religion</label>
+            <input type="text" id="religion" name="religion">
+            
+            <label for="contact">Contact Number</label>
+            <input type="text" id="contact" name="contact" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
