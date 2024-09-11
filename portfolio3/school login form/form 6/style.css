@@ -1,0 +1,128 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    box-shadow: 0 4px 10px rgba(0, 255, 255, 0.4);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00FFFF;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #00FFFF;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    text-align: center;
+    padding: 0 20px;
+    box-shadow: 0 4px 20px rgba(0, 255, 255, 0.3);
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #00FFFF;
+    text-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #00FFFF;
+    color: #121212;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 8px 15px rgba(0, 255, 255, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Programs Section */
+  .programs {
+    padding: 50px;
+    background-color: #1a1a1a;
+    text-align: center;
+  }
+  
+  .programs h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #00FFFF;
+  }
+  
+  .program {
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #222;
+    box-shadow: 0 8px 20px rgba(0, 255, 255, 0.2);
+  }
+  
+  .program h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .program p {
+    font-size: 16px;
+    color: #ddd;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    box-shadow: 0 -4px 10px rgba(0, 255, 255, 0.2);
+  }
+  
