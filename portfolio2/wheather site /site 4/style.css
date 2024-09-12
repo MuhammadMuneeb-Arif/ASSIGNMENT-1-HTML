@@ -1,0 +1,39 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-image: url('https://www.example.com/tropical-background.jpg'); /* replace with actual image URL */
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.city-weather {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #ffdd57;
+}
+
+p {
+    color: #ffd700;
+}
