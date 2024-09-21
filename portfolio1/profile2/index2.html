@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Portfolio Builder</h1>
+        
+        <!-- Input fields to customize the portfolio -->
+        <div class="builder">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="about">About Me:</label>
+            <textarea id="about" placeholder="Write something about yourself"></textarea>
+
+            <label for="projects">Projects:</label>
+            <textarea id="projects" placeholder="Describe your projects"></textarea>
+
+            <label for="theme">Select Theme:</label>
+            <select id="theme">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+            </select>
+        </div>
+
+        <!-- Live preview of the portfolio -->
+        <div class="portfolio-preview">
+            <h2 id="preview-name">Your Name</h2>
+            <p id="preview-about">About Me section...</p>
+            <p id="preview-projects">Projects will be shown here...</p>
+        </div>
+
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>
