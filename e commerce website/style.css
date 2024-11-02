@@ -1,0 +1,125 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.product-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.product-container h1 {
+    margin-top: 20px;
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+}
+
+.product-container p {
+    font-size: 1.2em;
+    color: #555;
+    text-align: center;
+}
+
+.product-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.product-gallery img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-details {
+    font-size: 1.1em;
+    color: #333;
+    margin-top: 20px;
+}
+
+.product-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-details ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.buy-now-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.buy-now-container a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+@media screen and (min-width: 1025px) {
+    img{
+        height: 260px;
+        width: auto;
+    }
+  }
+@media screen and (min-width: 769px) {
+    img{
+        height: 2300px;
+        width: auto;
+    }
+  }
+@media screen and (min-width: 481px) {
+    img{
+        height: 190px;
+        width: auto;
+    }
+  }
+@media screen and (min-width: 320px) {
+    img{
+        height:160px;
+        width: auto;
+    }
+  }
+@media (min-width: 1201px) {
+    img{
+        height: 200px;
+        width: auto;
+    }
+  }
+
+.buy-now-container a:hover {
+    background-color: #e65a50;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
